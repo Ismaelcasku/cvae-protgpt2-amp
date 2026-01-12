@@ -1,0 +1,39 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+
+.ipynb_checkpoints/
+
+# HPC outputs
+slurm-*.out
+slurm-*.err
+
+# Experiment outputs (no subir)
+runs/
+artifacts/
+checkpoints/
+wandb/
+lightning_logs/
+logs/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Data (no subir por defecto)
+data/
+*.csv
+*.parquet
+*.npz
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
