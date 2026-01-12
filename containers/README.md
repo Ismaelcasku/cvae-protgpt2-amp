@@ -3,7 +3,7 @@
 This repository is intended to run on HPC with Singularity/Apptainer.
 
 - Keep the `.sif` image outside git (do not commit).
-- SLURM scripts under `slurm/` assume you will bind the repo into the container
-  (e.g., host repo -> /work inside container).
+- Bind the repository into the container (e.g., host repo -> /work inside container).
+- Use shared HPC storage for datasets, `runs/`, and `artifacts/`.
 
-Edit paths according to your cluster environment.
+Edit your execution commands according to your cluster environment.

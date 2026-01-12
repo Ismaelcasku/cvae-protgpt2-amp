@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it."
+title: "Generative VAE integrating ProtGPT2 for Antimicrobial Peptides"
+authors:
+  - family-names: "Castanon"
+    given-names: "Ismael"
+repository-code: "https://github.com/Ismaelcasku/cvae-protgpt2-amp"
+license: "MIT"
