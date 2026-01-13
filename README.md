@@ -3,7 +3,7 @@
 HPC-oriented deep learning project for representation learning and conditional generation of antimicrobial peptides (AMPs).
 The pipeline combines a VAE-style latent variable model with a ProtGPT2 decoder and supports multiple conditioning strategies:
 latent conditioning, prefix conditioning, LoRA adaptation, and a gated end-to-end FullVAE variant. The repository also includes
-ablation-style diagnostics to validate that conditioning is actually used (not ignored).
+ablation-style diagnostics to validate that conditioning is actually used.
 
 Technical report: `docs/technical_report.pdf`
 
