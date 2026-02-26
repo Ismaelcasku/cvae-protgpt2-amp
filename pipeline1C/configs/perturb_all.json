@@ -1,0 +1,28 @@
+{
+  "_comment": "Perturbación alrededor de una seed AMP conocida. Rellena seed_seq antes de lanzar.",
+  "artifacts_dir": "~/bhome/ML/pipeline1B/runs/cvae_v4_gate_run3_freebits01/artifacts",
+  "output":        "~/bhome/ML/pipeline1C/runs/perturb_all/results.csv",
+
+  "bacteria":      "all",
+  "mode":          "perturb",
+  "n":             200,
+
+  "seed_seq":      "FILL_ME",
+
+  "sigma":         0.3,
+  "temperature":   0.9,
+  "top_k":         0,
+  "top_p":         0.95,
+  "max_new_tokens": 60,
+
+  "min_len":       8,
+  "max_len":       60,
+  "batch_size":    32,
+  "max_tries_factor": 40,
+
+  "reference_csv": "~/bhome/ML/data/train.csv",
+  "reference_max": 0,
+
+  "device":        "cuda",
+  "seed":          42
+}

@@ -1,0 +1,26 @@
+{
+  "_comment": "Generación desde prior ~ N(0,1). No necesita seed_seq. Produce secuencias diversas.",
+  "artifacts_dir": "~/bhome/ML/pipeline1B/runs/cvae_v4_gate_run3_freebits01/artifacts",
+  "output":        "~/bhome/ML/pipeline1C/runs/prior_all/results.csv",
+
+  "bacteria":      "all",
+  "mode":          "prior",
+  "n":             200,
+
+  "sigma":         1.0,
+  "temperature":   0.9,
+  "top_k":         0,
+  "top_p":         0.95,
+  "max_new_tokens": 60,
+
+  "min_len":       8,
+  "max_len":       60,
+  "batch_size":    32,
+  "max_tries_factor": 40,
+
+  "reference_csv": "~/bhome/ML/data/train.csv",
+  "reference_max": 0,
+
+  "device":        "cuda",
+  "seed":          42
+}
